@@ -1,0 +1,160 @@
+/* Zoo website styles */
+/* colour pallete:
+   background  #E3CCA1  (beige)
+   text        #000000
+   headings    #4D331E  (dark brown)
+   links       #006600  (green)
+*/
+
+body {
+    background-color: #E3CCA1;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* headings */
+h1 {
+    color: #4D331E;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    color: #4D331E;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    color: #4D331E;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+/* paragraphs */
+p {
+    color: #000000;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* links */
+a:link, a:visited {
+    color: #006600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, a:active {
+    color: #CC3300;
+    text-decoration: underline;
+}
+
+/* the image on the right */
+.rightfloat {
+    float: right;
+    border: 2px solid #006600;
+    margin: 10px;
+}
+
+/* ---- layout ---- */
+
+#container {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-left: 1px solid #4D331E;
+    border-right: 1px solid #4D331E;
+    padding: 15px;
+}
+
+#header {
+    text-align: center;
+}
+
+/* menu */
+#menu {
+    width: 170px;
+    float: left;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#menu li {
+    background-color: #E3CCA1;
+    border: 1px solid #4D331E;
+    padding: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#menu a:link, #menu a:visited {
+    color: #006600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu a:hover, #menu a:active {
+    color: #CC3300;
+    text-decoration: underline;
+}
+
+/* main */
+#main {
+    margin-left: 190px;
+}
+
+#main p {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main h3 {
+    color: #4D331E;
+    font-size: 20px;
+}
+
+#main a:link, #main a:visited {
+    color: #006600;
+    text-decoration: underline;
+}
+
+#main a:hover, #main a:active {
+    color: #CC3300;
+}
+
+/* footer */
+#footer {
+    background-color: #E3CCA1;
+    margin-top: 20px;
+    clear: both;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer a:link, #footer a:visited {
+    color: #006600;
+}
+
+#footer a:hover, #footer a:active {
+    color: #CC3300;
+}
